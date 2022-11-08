@@ -3,6 +3,6 @@ class Solution:
         res1=Counter(s)
         res2=Counter(t)
         if res1==res2:
-            return True
-        return False
+            return 1
+        return 0
         
